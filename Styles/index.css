@@ -12,6 +12,7 @@
 header div
 {
     border: solid var(--principal-color);
+    border-radius: 7.5px;
     background: var(--principal-color);
     padding: 1% 5% 1% 2%;
 }
