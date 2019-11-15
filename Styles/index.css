@@ -1,0 +1,29 @@
+:root
+{
+    --letter-color: #101219;
+    --background-color: #DDF2EB;
+    --principal-color: #3A405A;
+    --secondary-color: #5FC6BE;
+    --low-color: #4F6D7A;
+    --high-color: #C0D6DF;
+}
+
+
+header div
+{
+    border: solid var(--principal-color);
+    background: var(--principal-color);
+    padding: 1% 5% 1% 2%;
+}
+
+header img
+{
+    width: 7.5%;
+}
+header span
+{
+    color: var(--background-color);
+    margin-left: 3%;
+    font-size: 400%;
+    align: top;
+}

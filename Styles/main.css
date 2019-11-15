@@ -1,0 +1,18 @@
+:root
+{
+    --letter-color: #101219;
+    --background-color: #DDF2EB;
+    --principal-color: #3A405A;
+    --secondary-color: #5FC6BE;
+    --low-color: #4F6D7A;
+    --high-color: #C0D6DF;
+}
+
+
+body
+{
+    font-family: 'Roboto', 'Times', 'Arial';
+    color: var(--letter-color);
+    background: var(--background-color);
+    padding: 0.5%;
+}
