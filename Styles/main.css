@@ -11,8 +11,39 @@
 
 body
 {
-    font-family: 'Roboto', 'Times', 'Arial';
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--letter-color);
     background: var(--background-color);
     padding: 0.5%;
+    
+    text-align: center;
+}
+
+.back
+{
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    border: 5px var(--secondary-color);
+    background: var(--secondary-color);
+    padding: 1% 0 1% 0;
+    color: var(--letter-color);
+    transition: 0.5s;
+}
+
+.back:hover
+{
+    transform: scale(1.05);
+    background: cornflowerblue;
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--letter-color);
+}
+
+.table
+{
+    width: 90%;
 }
