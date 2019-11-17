@@ -9,31 +9,34 @@
 
         <title>Lab-17</title>
     </head>
-<body>
-    <a href="./index.html">
-        <div class="back">
-            <span>
-                R e g r e s a r 
-            </span>
+    <body>
+        <a href="./index.html">
+            <div class="back">
+                <span>
+                    R e g r e s a r 
+                </span>
+            </div>
+        </a>
+        <img src="../Resources/table.jpg" class="table" draggable="false">
+
+        <div class="animation">
+            <img id="cuchara" src="../Resources/Instruments/cuchara/cuchara empty.png" onclick="changeElement('cuchara')" class="cuchara_estante" draggable="false" ondragstart="drag(event, 'cuchara')">
+            <img id="mechero" src="../Resources/Instruments/mechero/mechero off.png" onclick="changeMechero()" class="mechero_estante" draggable="false" ondragleave="dropCuchara(event)">
+        </div> 
+
+        <div class="elements animation">
+            <img id="cloruro_de_litio" src="../Resources/elements/solid/cloruro de litio.png" onclick="changeElement('cloruro_de_litio')" class="cloruro_de_litio_estante" draggable="false"  ondragleave="drop(event, 'cloruro de litio')" >
+            <img id="sodio" src="../Resources/elements/solid/sodio.png" onclick="changeElement('sodio')" class="sodio_estante" draggable="false" ondragleave="drop(event, 'sodio')">
+            <img id="calcio" src="../Resources/elements/solid/calcio.png" onclick="changeElement('calcio')" class="calcio_estante" draggable="false" ondragleave="drop(event, 'calcio')">
+            <img id="potasio" src="../Resources/elements/solid/potasio.png" onclick="changeElement('potasio')" class="potasio_estante" draggable="false" ondragleave="drop(event, 'potasio')">
+            <img id="estroncio" src="../Resources/elements/solid/estroncio.png" onclick="changeElement('estroncio')" class="estroncio_estante" draggable="false" ondragleave="drop(event, 'estroncio')">
+            <img id="bario" src="../Resources/elements/solid/bario.png" onclick="changeElement('bario')" class="bario_estante" draggable="false" ondragleave="drop(event, 'bario')">
+            <img id="hierro" src="../Resources/elements/solid/hierro.png" onclick="changeElement('hierro')" class="hierro_estante" draggable="false" ondragleave="drop(event, 'hierro')">
+            <img id="cobre" src="../Resources/elements/solid/cobre.png" onclick="changeElement('cobre')" class="cobre_estante" draggable="false" ondragleave="drop(event, 'cobre')">
         </div>
-    </a>
-    <img src="../Resources/table.jpg" class="table">
 
-    <div class="animation">
-        <img id="cuchara" src="../Resources/Instruments/cuchara/cuchara empty.png" onclick="changeElement('cuchara')" class="cuchara_estante">
-        <img id="mechero" src="../Resources/Instruments/mechero/mechero off.png" onclick="changeMechero()" class="mechero_estante">
-    </div> 
-
-    <div class="elements animation">
-        <img id="cloruro_de_litio" src="../Resources/elements/solid/cloruro de litio.png" onclick="changeElement('cloruro_de_litio')" class="cloruro_de_litio_estante">
-        <img id="sodio" src="../Resources/elements/solid/sodio.png" onclick="changeElement('sodio')" class="sodio_estante">
-        <img id="calcio" src="../Resources/elements/solid/calcio.png" onclick="changeElement('calcio')" class="calcio_estante">
-        <img id="potasio" src="../Resources/elements/solid/potasio.png" onclick="changeElement('potasio')" class="potasio_estante">
-        <img id="estroncio" src="../Resources/elements/solid/estroncio.png" onclick="changeElement('estroncio')" class="estroncio_estante">
-        <img id="bario" src="../Resources/elements/solid/bario.png" onclick="changeElement('bario')" class="bario_estante">
-        <img id="hierro" src="../Resources/elements/solid/hierro.png" onclick="changeElement('hierro')" class="hierro_estante">
-        <img id="cobre" src="../Resources/elements/solid/cobre.png" onclick="changeElement('cobre')" class="cobre_estante">
-    </div>
-
+        <div class="info">
+            <p id=info></p>
+        </div>
     </body>
 </html>
