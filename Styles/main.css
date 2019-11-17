@@ -15,8 +15,6 @@ body
     color: var(--letter-color);
     background: var(--background-color);
     padding: 0.5%;
-    
-    text-align: center;
 }
 
 .back
@@ -45,5 +43,7 @@ a
 
 .table
 {
+    position: absolute;
+    margin-left: 4%;
     width: 90%;
 }

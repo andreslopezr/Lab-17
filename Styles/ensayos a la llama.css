@@ -1,0 +1,147 @@
+.animation *:hover
+{
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: 5;
+}
+
+
+
+
+.cuchara_estante
+{
+    width: 5%;
+    position: absolute;
+    margin-left: 14%;
+    margin-top: 10%;
+    
+}
+.cuchara_table
+{
+    width: 5%;
+    position: absolute;
+    margin-left: 32%;
+    margin-top: 37.5%;
+}
+
+
+.mechero_estante
+{
+    width: 4.5%;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.mechero_table
+{
+    width: 5%;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 28.5%;
+}
+
+
+
+
+.elements *
+{
+    width: 5%;
+    position: absolute;
+}
+
+
+.cloruro_de_litio_estante
+{
+    margin-left: 9.5%;
+    margin-top: 23%;
+}
+.cloruro_de_litio_table
+{
+    margin-left: 19%;
+    margin-top: 32%;
+}
+
+
+.sodio_estante
+{
+    margin-left: 13%;
+    margin-top: 23.5%;
+}
+.sodio_table
+{
+    margin-left: 24%;
+    margin-top: 32%;
+}
+
+
+.calcio_estante
+{
+    margin-left: 16.5%;
+    margin-top: 23.25%;
+}
+.calcio_table
+{
+    margin-left: 29%;
+    margin-top: 32%;
+}
+
+
+.potasio_estante
+{
+    margin-left: 20.5%;
+    margin-top: 23%;
+}
+.potasio_table
+{
+    margin-left: 34%;
+    margin-top: 32%;
+}
+
+
+.estroncio_estante
+{
+    margin-left: 24.3%;
+    margin-top:23.2%;
+}
+.estroncio_table
+{
+    margin-left: 39%;
+    margin-top: 32%;
+}
+
+
+.bario_estante
+{
+    margin-left: 28%;
+    margin-top: 23.9%;
+}
+.bario_table
+{
+    margin-left: 44%;
+    margin-top: 32%;
+}
+
+
+.hierro_estante
+{
+    margin-left: 31.5%;
+    margin-top:23.4%;
+}
+.hierro_table
+{
+    margin-left: 49%;
+    margin-top: 32%;
+}
+
+
+.cobre_estante
+{
+    margin-left: 34%;
+    margin-top: 23.6%;
+}
+.cobre_table
+{
+    margin-left: 54%;
+    margin-top: 32%;
+}
