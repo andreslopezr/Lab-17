@@ -3,20 +3,43 @@
     <head>
         <meta charset="UTF-8">
 
-        <script src="../Scripts/index.js"></script>
+        <script src="../Scripts/elementos quimicos.js"></script>
         <link rel="stylesheet" href="../Styles/main.css">
-        <link rel="stylesheet" href="../Styles/">
+        <link rel="stylesheet" href="../Styles/elementos quimicos.css">
 
         <title>Lab-17</title>
     </head>
-<body>
-    <a href="./index.html">
-        <div class="back">
-            <span>
-                R e g r e s a r 
-            </span>
+    <body>
+        <a href="./index.html">
+            <div class="back">
+                <span>
+                    R e g r e s a r 
+                </span>
+            </div>
+        </a>
+        <img src="../Resources/table.jpg" class="table" draggable="false">
+        
+        <div class="animation">
+            <img id="cuchara" src="../Resources/Instruments/cuchara/cuchara empty.png" onclick="changeElement('cuchara')" class="cuchara_estante" draggable="false">
+            <img id="precipitado" src="../Resources/Instruments/precipitado/precipitado empty.png" onclick="changeElement('precipitado')" class="precipitado_estante" draggable="false">
+            <img id="pipeta" src="../Resources/Instruments/pipeta/pipeta empty.png" onclick="changeElement('pipeta')" class="pipeta_estante" draggable="false">
+            <img id="conductimetro" src="../Resources/Instruments/conductimetro/conductimetro off.png" onclick="changeElement('conductimetro')" class="conductimetro_estante" draggable="false">
         </div>
-    </a>
-    <img src="../Resources/table.jpg" class="table" draggable="false">
-</body>
+
+        <div class="elements animation">
+            <img id="calcio" src="../Resources/elements/solid/calcio.png" onclick="changeElement('calcio')" class="calcio_estante" draggable="false">
+            <img id="zinc" src="../Resources/elements/solid/zinc.png" onclick="changeElement('zinc')" class="zinc_estante" draggable="false">
+            <img id="magnesio" src="../Resources/elements/solid/magnesio.png" onclick="changeElement('magnesio')" class="magnesio_estante" draggable="false">
+            <img id="carbon" src="../Resources/elements/solid/carbon.png" onclick="changeElement('carbon')" class="carbon_estante" draggable="false">
+            <img id="azufre" src="../Resources/elements/solid/azufre.png" onclick="changeElement('azufre')" class="azufre_estante" draggable="false">
+            <img id="cobre" src="../Resources/elements/solid/cobre.png" onclick="changeElement('cobre')" class="cobre_estante" draggable="false">
+            <img id="agua" src="../Resources/elements/liquid/agua.png" onclick="changeElement('agua')" class="agua_estante" draggable="false">
+            <img id="cloruro_de_cobre" src="../Resources/elements/liquid/cloruro de cobre.png" onclick="changeElement('cloruro_de_cobre')" class="cloruro_de_cobre_estante" draggable="false">
+            <img id="acido_clorhidrico" src="../Resources/elements/liquid/acido clorhidrico.png" onclick="changeElement('acido_clorhidrico')" class="acido_clorhidrico_estante" draggable="false">
+        </div>
+
+        <div class="info">
+            <p id=info></p>
+        </div>
+    </body>
 </html>
