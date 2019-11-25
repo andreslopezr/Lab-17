@@ -37,6 +37,7 @@
     position: absolute;
     margin-left: 60%;
     margin-top: 33%;
+    z-index: 5;
 
 }
 
@@ -193,4 +194,22 @@
     width: 4%;
     margin-left: 84%;
     margin-top: 30.5%;
+}
+
+
+.precipitacion_hide
+{
+    width: 4%;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 33%;
+    z-index: -1;
+}
+.precipitacion_show
+{
+    width: 4%;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 33%;
+    z-index: 1;
 }

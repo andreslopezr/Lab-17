@@ -68,11 +68,6 @@ function changeElement(element)
     info(element);
 }
 
-function drag(e, id)
-{
-    var element = document.getElementById(id);
-}
-
 function drop(e, id)
 {
     e.preventDefault();
